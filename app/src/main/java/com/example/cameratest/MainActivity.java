@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "No camera app available", Toast.LENGTH_SHORT).show();
         }
     }
-
+//
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
